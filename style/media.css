@@ -1,0 +1,242 @@
+@media(max-width:1255px) {
+    .intro__title {
+        font-size: 42px;
+        line-height: 49px;
+    }
+
+    .header__nav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .offers__content {
+        column-gap: 25px;
+    }
+
+    .mobile__content {
+        column-gap: 25px;
+    }
+}
+@media(max-width:1173px) {
+    .exchange__item {
+        width: 266px;
+    }
+
+    .mobile__item-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .intro__title {
+        font-size: 33px;
+        line-height: 48px
+    }
+}
+@media(max-width:1093px) {
+    .exchange__item {
+        width: 431px;
+    }
+
+    .exchange__content {
+        text-align: center;
+    }
+
+    .exchange__price {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile__item-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .intro__title {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+@media(max-width:961px) {
+    .intro__content {
+        flex-direction: column;
+    }
+
+    .intro__title {
+        font-size: 25px;
+        line-height: 169px
+    }
+
+    .exchange__item {
+        width: 285px;
+    }
+
+    .visa__img {
+        width: 430px;
+    }
+
+    .mobile__item-title {
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+@media(max-width:900px) {
+    .mobile__content {
+        align-items: center;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .mobile__right {
+        row-gap: 15px;
+    }
+}
+@media(max-width:848px) {
+    .header__list {
+        column-gap: 10px;
+        margin-right: 20px;
+    }
+}
+@media(max-width:768px) {
+
+    .exchange,
+    .visa {
+        flex-direction: column;
+    }
+
+    title {
+        text-align: center;
+    }
+
+    .header__menu {
+        position: fixed;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+        padding: 30px;
+        backdrop-filter: blur(15px) ;
+        bottom: 0;
+        z-index: 999;
+        box-shadow: -3px 4px 14px 3px rgba(0, 0, 0, 0.54);
+        transform: translate(107%);
+        transition: 0.3s;
+        
+    }
+
+    .header__list {
+            flex-direction: column;
+            align-items: flex-end;
+            row-gap: 20px;
+            margin-bottom: 40px;
+    }
+    .menu__btn{
+     display: block;
+     border: none;   
+     font-weight: 700;
+     font-size: 18px;
+     height: 0;
+    }
+    .menu__btn:focus+.header__menu{
+        transform: translate(0);
+    }
+    .offers__content{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}
+@media(max-width:650px){
+    .intro__app{
+        width: 500px;
+        padding: 15px 0;
+    }
+    .intro__img{
+        width: 550px;
+    }
+    .intro__title{
+        font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    }
+    .intro__container{
+        height: 480px;
+    }
+    .exchange__item{
+        max-width: unset;
+        width: 84%;
+    }
+}
+@media(max-width:502px){
+    .intro__app{
+        width: 95%;
+    }
+    .intro__img{
+        width: 450px;
+    }
+    .mobile__app-item{
+        padding: 10px 0;
+    }
+    .exchange__img{
+        width: 400px;
+    }
+    .mobile__item{
+        column-gap: 40px;
+    }
+    .mobile__item-title{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media(max-width:423px){
+    .mobile__img{
+        width: max-content  ;
+    }
+    .visa__img,
+    .exchange__img,
+    .intro__img{
+        width: 100%;
+    }
+    .intro__title{
+       line-height: 26px;
+    }
+    .intro__content{
+        flex-grow: unset;
+        
+    }
+    .intro__container {
+        height: max-content;
+    }
+    .mobile__left .mobile__img{
+        max-width: 100%;
+    }
+    .mobile__right .mobile__item{
+        flex-direction: column !important;
+    }
+    .offers__item-img{
+        display: none;
+    }
+    .visa__content{
+        max-width: 100%;
+    }
+    .exchange__item {
+        width: 280px;
+        padding: 10px;
+    } 
+       .mobile__app-item{
+        width: 310px;
+    }
+    .mobile__app-content{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+}
+@media(max-width:320px){
+    .mobile__app-content,
+    .intro__app{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .mobile__app-item{
+        width: 280px;
+    }
+}
